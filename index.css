@@ -1,0 +1,61 @@
+.container {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.elements {
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 393px;
+    height: 54px;
+    background-color: #fff;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 35px;
+    color: #000;
+}
+
+.right {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.img__text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.up {
+    margin-bottom: 600px;
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+}
+
+.down {
+    font-weight: 400;
+    font-size: 35px;
+    color: #fff;
+}
+
+input[type='text'] {
+    font-weight: 400;
+    font-size: 35px;
+    color: #000;
+}
+
+.mem {
+    font-size: 24px;
+}
